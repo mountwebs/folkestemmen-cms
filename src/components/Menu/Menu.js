@@ -4,13 +4,9 @@ import Logo from "./Logo";
 import styled from "styled-components";
 
 const StyledMenu = styled.div`
-  display: flex;
-  flex-flow: column nowrap;
   height: 100vh;
-  width: 300px;
-  padding-left: 1rem;
-  background-color: #292929;
-  color: white;
+  background-color: grey;
+  width: 150px;
 `;
 
 const Menu = () => {
